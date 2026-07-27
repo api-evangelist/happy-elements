@@ -1,8 +1,23 @@
 aid: happy-elements
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/happy-elements.png
 name: Happy Elements
-description: 'Happy Elements is a company surfaced as a portfolio company of dcm-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Happy Elements is a mobile game developer and publisher, backed by DCM Ventures, best known
+  for free-to-play titles such as the Ensemble Stars! rhythm/idol franchise and Merc Storia. Operating
+  across China and Japan, the company builds consumer entertainment games distributed through the Apple
+  App Store and Google Play rather than a public developer API. Added to the API Evangelist network as a
+  consumer-sector portfolio profile; enrichment found no public API, developer portal, or SDK surface, so
+  the only machine-verifiable artifact is a probed domain-security posture for happyelements.com.'
 url: https://raw.githubusercontent.com/api-evangelist/happy-elements/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Entertainment
+- Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +42,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/happy-elements-domain-security.yml
 - type: Website
   url: https://en.happyelements.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
