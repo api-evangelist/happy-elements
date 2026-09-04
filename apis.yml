@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://en.happyelements.com/', status: 301, note: 'declared website redirects to https://leyuansu.com:443/ — a different registrable domain (happyelements.com -> leyuansu.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/happy-elements.png
 name: Happy Elements
 description: 'Happy Elements is a mobile game developer and publisher, backed by DCM Ventures, best known
